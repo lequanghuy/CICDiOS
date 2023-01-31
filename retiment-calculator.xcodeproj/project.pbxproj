@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20FCE4782988ACEA00176702 /* retiment_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCE4772988ACEA00176702 /* retiment_calculatorApp.swift */; };
+		20FCE47A2988ACEA00176702 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCE4792988ACEA00176702 /* ContentView.swift */; };
+		20FCE47C2988ACEC00176702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FCE47B2988ACEC00176702 /* Assets.xcassets */; };
+		20FCE47F2988ACEC00176702 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FCE47E2988ACEC00176702 /* Preview Assets.xcassets */; };
+		20FCE4892988ACEC00176702 /* retiment_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCE4882988ACEC00176702 /* retiment_calculatorTests.swift */; };
+		20FCE4932988ACEC00176702 /* retiment_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCE4922988ACEC00176702 /* retiment_calculatorUITests.swift */; };
+		20FCE4952988ACEC00176702 /* retiment_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCE4942988ACEC00176702 /* retiment_calculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20FCE4852988ACEC00176702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20FCE46C2988ACE900176702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20FCE4732988ACEA00176702;
+			remoteInfo = "retiment-calculator";
+		};
+		20FCE48F2988ACEC00176702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20FCE46C2988ACE900176702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20FCE4732988ACEA00176702;
+			remoteInfo = "retiment-calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20FCE4742988ACEA00176702 /* retiment-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "retiment-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FCE4772988ACEA00176702 /* retiment_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retiment_calculatorApp.swift; sourceTree = "<group>"; };
+		20FCE4792988ACEA00176702 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20FCE47B2988ACEC00176702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FCE47E2988ACEC00176702 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20FCE4842988ACEC00176702 /* retiment-calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retiment-calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FCE4882988ACEC00176702 /* retiment_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retiment_calculatorTests.swift; sourceTree = "<group>"; };
+		20FCE48E2988ACEC00176702 /* retiment-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retiment-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FCE4922988ACEC00176702 /* retiment_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retiment_calculatorUITests.swift; sourceTree = "<group>"; };
+		20FCE4942988ACEC00176702 /* retiment_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retiment_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20FCE4712988ACEA00176702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FCE4812988ACEC00176702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FCE48B2988ACEC00176702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20FCE46B2988ACE900176702 = {
+			isa = PBXGroup;
+			children = (
+				20FCE4762988ACEA00176702 /* retiment-calculator */,
+				20FCE4872988ACEC00176702 /* retiment-calculatorTests */,
+				20FCE4912988ACEC00176702 /* retiment-calculatorUITests */,
+				20FCE4752988ACEA00176702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20FCE4752988ACEA00176702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FCE4742988ACEA00176702 /* retiment-calculator.app */,
+				20FCE4842988ACEC00176702 /* retiment-calculatorTests.xctest */,
+				20FCE48E2988ACEC00176702 /* retiment-calculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20FCE4762988ACEA00176702 /* retiment-calculator */ = {
+			isa = PBXGroup;
+			children = (
+				20FCE4772988ACEA00176702 /* retiment_calculatorApp.swift */,
+				20FCE4792988ACEA00176702 /* ContentView.swift */,
+				20FCE47B2988ACEC00176702 /* Assets.xcassets */,
+				20FCE47D2988ACEC00176702 /* Preview Content */,
+			);
+			path = "retiment-calculator";
+			sourceTree = "<group>";
+		};
+		20FCE47D2988ACEC00176702 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20FCE47E2988ACEC00176702 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20FCE4872988ACEC00176702 /* retiment-calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				20FCE4882988ACEC00176702 /* retiment_calculatorTests.swift */,
+			);
+			path = "retiment-calculatorTests";
+			sourceTree = "<group>";
+		};
+		20FCE4912988ACEC00176702 /* retiment-calculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20FCE4922988ACEC00176702 /* retiment_calculatorUITests.swift */,
+				20FCE4942988ACEC00176702 /* retiment_calculatorUITestsLaunchTests.swift */,
+			);
+			path = "retiment-calculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20FCE4732988ACEA00176702 /* retiment-calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FCE4982988ACEC00176702 /* Build configuration list for PBXNativeTarget "retiment-calculator" */;
+			buildPhases = (
+				20FCE4702988ACEA00176702 /* Sources */,
+				20FCE4712988ACEA00176702 /* Frameworks */,
+				20FCE4722988ACEA00176702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "retiment-calculator";
+			productName = "retiment-calculator";
+			productReference = 20FCE4742988ACEA00176702 /* retiment-calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20FCE4832988ACEC00176702 /* retiment-calculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FCE49B2988ACEC00176702 /* Build configuration list for PBXNativeTarget "retiment-calculatorTests" */;
+			buildPhases = (
+				20FCE4802988ACEC00176702 /* Sources */,
+				20FCE4812988ACEC00176702 /* Frameworks */,
+				20FCE4822988ACEC00176702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20FCE4862988ACEC00176702 /* PBXTargetDependency */,
+			);
+			name = "retiment-calculatorTests";
+			productName = "retiment-calculatorTests";
+			productReference = 20FCE4842988ACEC00176702 /* retiment-calculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20FCE48D2988ACEC00176702 /* retiment-calculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FCE49E2988ACEC00176702 /* Build configuration list for PBXNativeTarget "retiment-calculatorUITests" */;
+			buildPhases = (
+				20FCE48A2988ACEC00176702 /* Sources */,
+				20FCE48B2988ACEC00176702 /* Frameworks */,
+				20FCE48C2988ACEC00176702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20FCE4902988ACEC00176702 /* PBXTargetDependency */,
+			);
+			name = "retiment-calculatorUITests";
+			productName = "retiment-calculatorUITests";
+			productReference = 20FCE48E2988ACEC00176702 /* retiment-calculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20FCE46C2988ACE900176702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					20FCE4732988ACEA00176702 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					20FCE4832988ACEC00176702 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 20FCE4732988ACEA00176702;
+					};
+					20FCE48D2988ACEC00176702 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 20FCE4732988ACEA00176702;
+					};
+				};
+			};
+			buildConfigurationList = 20FCE46F2988ACE900176702 /* Build configuration list for PBXProject "retiment-calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20FCE46B2988ACE900176702;
+			productRefGroup = 20FCE4752988ACEA00176702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20FCE4732988ACEA00176702 /* retiment-calculator */,
+				20FCE4832988ACEC00176702 /* retiment-calculatorTests */,
+				20FCE48D2988ACEC00176702 /* retiment-calculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20FCE4722988ACEA00176702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FCE47F2988ACEC00176702 /* Preview Assets.xcassets in Resources */,
+				20FCE47C2988ACEC00176702 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FCE4822988ACEC00176702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FCE48C2988ACEC00176702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20FCE4702988ACEA00176702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FCE47A2988ACEA00176702 /* ContentView.swift in Sources */,
+				20FCE4782988ACEA00176702 /* retiment_calculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FCE4802988ACEC00176702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FCE4892988ACEC00176702 /* retiment_calculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FCE48A2988ACEC00176702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FCE4952988ACEC00176702 /* retiment_calculatorUITestsLaunchTests.swift in Sources */,
+				20FCE4932988ACEC00176702 /* retiment_calculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20FCE4862988ACEC00176702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20FCE4732988ACEA00176702 /* retiment-calculator */;
+			targetProxy = 20FCE4852988ACEC00176702 /* PBXContainerItemProxy */;
+		};
+		20FCE4902988ACEC00176702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20FCE4732988ACEA00176702 /* retiment-calculator */;
+			targetProxy = 20FCE48F2988ACEC00176702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20FCE4962988ACEC00176702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20FCE4972988ACEC00176702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20FCE4992988ACEC00176702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"retiment-calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = L72T9U893V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyle.retiment-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20FCE49A2988ACEC00176702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"retiment-calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = L72T9U893V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyle.retiment-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20FCE49C2988ACEC00176702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L72T9U893V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyle.retiment-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/retiment-calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/retiment-calculator";
+			};
+			name = Debug;
+		};
+		20FCE49D2988ACEC00176702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L72T9U893V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyle.retiment-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/retiment-calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/retiment-calculator";
+			};
+			name = Release;
+		};
+		20FCE49F2988ACEC00176702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L72T9U893V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyle.retiment-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "retiment-calculator";
+			};
+			name = Debug;
+		};
+		20FCE4A02988ACEC00176702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L72T9U893V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huyle.retiment-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "retiment-calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20FCE46F2988ACE900176702 /* Build configuration list for PBXProject "retiment-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FCE4962988ACEC00176702 /* Debug */,
+				20FCE4972988ACEC00176702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FCE4982988ACEC00176702 /* Build configuration list for PBXNativeTarget "retiment-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FCE4992988ACEC00176702 /* Debug */,
+				20FCE49A2988ACEC00176702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FCE49B2988ACEC00176702 /* Build configuration list for PBXNativeTarget "retiment-calculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FCE49C2988ACEC00176702 /* Debug */,
+				20FCE49D2988ACEC00176702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FCE49E2988ACEC00176702 /* Build configuration list for PBXNativeTarget "retiment-calculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FCE49F2988ACEC00176702 /* Debug */,
+				20FCE4A02988ACEC00176702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20FCE46C2988ACE900176702 /* Project object */;
+}
