@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_retiment_calculator_retiment_calculatorUITests : NSObject
+@end
+@implementation PodsDummy_Pods_retiment_calculator_retiment_calculatorUITests
+@end

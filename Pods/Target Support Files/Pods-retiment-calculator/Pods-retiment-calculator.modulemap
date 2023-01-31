@@ -1,0 +1,6 @@
+framework module Pods_retiment_calculator {
+  umbrella header "Pods-retiment-calculator-umbrella.h"
+
+  export *
+  module * { export * }
+}
