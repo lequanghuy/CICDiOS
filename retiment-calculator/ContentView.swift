@@ -14,6 +14,17 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Button {
+                print("Tap")
+            } label: {
+                Text("Tap me")
+            }
+            Button {
+                print("Tap")
+            } label: {
+                Text("Tap me 1")
+            }
+
         }
         .padding()
     }
