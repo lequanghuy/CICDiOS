@@ -22,11 +22,15 @@ final class retiment_calculatorUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+        func testExample() throws {
         // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
-
+            let app = XCUIApplication()
+            app.launch()
+            app.buttons["Tap me"].tap()
+            app.buttons["Tap me 1"].tap()
+            app.staticTexts["Hello, Huy"].tap()
+            app.staticTexts["Hello, world!"].tap()
+            
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
