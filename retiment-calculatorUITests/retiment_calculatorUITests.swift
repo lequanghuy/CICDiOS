@@ -31,7 +31,9 @@ final class retiment_calculatorUITests: XCTestCase {
             app.staticTexts["Hello, world!"].tap()
             
             let button1 = app.buttons["Tap me"]
+            let button2 = app.buttons["Tap me 2"]
             XCTAssertTrue(button1.exists, "button 1 doesnt exist")
+            XCTAssertTrue(button2.exists, "button 2 doesnt exist")
             button1.tap()
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
