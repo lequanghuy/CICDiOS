@@ -26,11 +26,13 @@ final class retiment_calculatorUITests: XCTestCase {
         // UI tests must launch the application that they test.
             let app = XCUIApplication()
             app.launch()
-            app.buttons["Tap me"].tap()
             app.buttons["Tap me 1"].tap()
             app.staticTexts["Hello, Huy"].tap()
             app.staticTexts["Hello, world!"].tap()
             
+            let button1 = app.buttons["Tap me"]
+            XCTAssertTrue(button1.exists, "button 1 doesnt exist")
+            button1.tap()
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
