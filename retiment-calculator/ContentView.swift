@@ -25,7 +25,11 @@ struct ContentView: View {
             } label: {
                 Text("Tap me 1")
             }
-
+            Button {
+                print("Tap")
+            } label: {
+                Text("Tap me 2")
+            }
         }
         .padding()
     }
